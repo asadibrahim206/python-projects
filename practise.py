@@ -1,8 +1,16 @@
-name = {'asad' : 208, 'ali': 309, 'ahmed': 405}
+class studnets:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.school = "XYZ school"
+    def info(self):
+        print(f"Name: {self.name}, Age: {self.age}, School: {self.school}")
 
+def main():
+    student1 = studnets("Asad", 20)
+    student2 = studnets("Ali", 22)
 
-if __name__ == "__main__":
-    if 'asad' in name:
-        print("hello asad")
-    else:
-        print("hello user")
+    student1.info()
+    student2.info()
+
+main()
