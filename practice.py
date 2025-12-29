@@ -1,4 +1,8 @@
+import practise
+
+print(practise.name)
 #BEGINERS 
+
 #Given two integer numbers, write a Python program to return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.
 
 # num1 = 3
@@ -29,5 +33,5 @@
 
 mydict = {'a': 100, 'b':200, 'c':300}
 
-keys = mydict.items()
-print(keys)
+for item in mydict.items():
+    print(item)
