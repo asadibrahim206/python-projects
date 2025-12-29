@@ -31,5 +31,8 @@
 
 str = "PYnative"
 
-for i in range(0, len(str), 1):
-    print(str[i])
+str = list(str)
+
+for i in str[0::2]:
+    if i != 0:
+        print(i)
