@@ -1,6 +1,4 @@
-import practise
 
-print(practise.name)
 #BEGINERS 
 
 #Given two integer numbers, write a Python program to return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.
@@ -31,7 +29,7 @@ print(practise.name)
 #     else
 #         print("noe even")
 
-mydict = {'a': 100, 'b':200, 'c':300}
+str = "PYnative"
 
-for item in mydict.items():
-    print(item)
+for i in range(0, len(str), 1):
+    print(str[i])
