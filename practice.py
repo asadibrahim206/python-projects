@@ -27,7 +27,7 @@
 #     else
 #         print("noe even")
 
+mydict = {'a': 100, 'b':200, 'c':300}
 
-name = input("ENTER YOUR NAME : ")
-for i in range(len(name)):   if i % 2 == 0:
-        print(name[i])
+keys = mydict.items()
+print(keys)
