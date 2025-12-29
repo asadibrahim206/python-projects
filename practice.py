@@ -29,10 +29,16 @@
 #     else
 #         print("noe even")
 
-str = "PYnative"
+# s = "HelloWorld"
+# for i in range(0, len(s)):
+#     if i != 5:
+#         print(s[i])
 
-str = list(str)
+l = [1,2,3,4,4,5,5,6]
+new_l = []
 
-for i in str[0::2]:
-    if i != 0:
-        print(i)
+for i in l:
+    if i not in new_l:
+       new_l.append(i)
+    
+print(new_l)
