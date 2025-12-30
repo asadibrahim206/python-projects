@@ -34,11 +34,7 @@
 #     if i != 5:
 #         print(s[i])
 
-l = [1,2,3,4,4,5,5,6]
-new_l = []
 
-for i in l:
-    if i not in new_l:
-       new_l.append(i)
-    
-print(new_l)
+# l = [1,2,3,4,4,5,5,6]
+ 
+
