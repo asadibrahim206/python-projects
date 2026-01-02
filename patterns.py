@@ -16,3 +16,7 @@ for i in range(n):
         if i == 0 or i==n or j == 0 or j == n:
             print("*")
     print()
+
+a = "asad"
+
+print(a)
