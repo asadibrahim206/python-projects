@@ -11,5 +11,8 @@
 
 n = 5 
 
-for i in range(10):
-    print("*")
+for i in range(n):
+    for j in range(n):
+        if i == 0 or i==n or j == 0 or j == n:
+            print("*")
+    print()
