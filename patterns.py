@@ -9,14 +9,21 @@
 #             print(" ", end=" ")
 #     print()
 
-n = 5 
 
-for i in range(n):
-    for j in range(n):
-        if i == 0 or i==n or j == 0 or j == n:
-            print("*")
-    print()
+class Student:
+    def __init__(self,n):
+        print("asad")
 
-a = "asad"
+    def calc(n):
+        for i in range(n):
+            for j in range(n):
+                if i == 0 or i==n or j == 0 or j == n:
+                    print("*")
+        print()
 
-print(a)
+def main():
+    student =  Student()
+    student.calc(5)
+
+if __name__ == "__main__":
+    main()
