@@ -26,3 +26,4 @@ def main():
     student.calc(5)
 
 if __name__ == "__main__":
+    print("asad")
