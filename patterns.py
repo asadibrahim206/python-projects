@@ -24,3 +24,5 @@ class Student:
 def main():
     student =  Student()
     student.calc(5)
+
+if __name__ == "__main__":
